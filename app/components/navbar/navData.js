@@ -1,6 +1,6 @@
 export const navigationData = {
   brand: {
-    name: "AngelList",
+    name: "HealthCareium",
     href: "/"
   },
   mainNavItems: [

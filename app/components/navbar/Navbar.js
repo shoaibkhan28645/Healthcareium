@@ -57,7 +57,7 @@ export function Navbar() {
 
           {/* Main Navigation */}
           <div 
-            className="hidden md:block relative"
+            className="hidden lg:block relative"
             onMouseEnter={handleNavAreaEnter}
             onMouseLeave={handleNavAreaLeave}
           >
@@ -91,7 +91,7 @@ export function Navbar() {
           </div>
 
           {/* Auth Section */}
-          <div className="hidden md:flex items-center space-x-4">
+          <div className="hidden lg:flex items-center space-x-4">
             {navigationData.authItems.map((item) => (
               <AuthButton
                 key={item.label}
@@ -104,7 +104,7 @@ export function Navbar() {
           </div>
 
           {/* Mobile menu button */}
-          <div className="md:hidden">
+          <div className="lg:hidden">
             <button
               type="button"
               className="bg-slate-800 inline-flex items-center justify-center p-2 rounded-md text-slate-400 hover:text-white hover:bg-slate-700 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-white"
