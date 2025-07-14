@@ -4,31 +4,32 @@ import { useState } from "react"
 
 const faqData = [
   {
-    question: "What are home health care services?",
+    question: "What services are included in cancer care at home?",
     answer:
-      "Home health care services provide medical and non-medical assistance to individuals in their homes. This includes everything from skilled nursing and physiotherapy to personal care and companionship, ensuring patients receive the support they need in a comfortable environment.",
+      "Our cancer care at home services include medication management, pain and symptom control, nutritional support, emotional counseling, wound care, and assistance with daily activities. A personalized care plan is created based on the patient's condition and needs.",
   },
   {
-    question: "Why choose our home care agency in Pakistan?",
+    question: "Is cancer care at home safe?",
     answer:
-      "Our agency is a leading provider of home care services in Pakistan, known for our professional caregivers, personalized care plans, and commitment to quality. We offer a comprehensive range of services, including elderly care, patient care, and specialized nursing support, to meet the diverse needs of our clients.",
+      "Yes, our home-based cancer care is designed to be safe and effective. Our trained healthcare professionals follow strict protocols to manage symptoms, administer medications, and monitor the patient's condition in a hygienic and controlled environment.",
   },
   {
-    question: "Are your caregivers certified and trustworthy?",
+    question: "Who will be taking care of the patient at home?",
     answer:
-      "Absolutely. All our caregivers, including nurses and attendants, are certified professionals who undergo rigorous background checks and continuous training. We prioritize safety, reliability, and compassionate care to ensure our clients receive the best possible support.",
+      "A team of trained and compassionate professionals, including registered nurses, caregivers, nutritionists, and doctors (if needed), will provide comprehensive cancer care at home under the supervision of an oncologist or specialist.",
   },
   {
-    question: "What are the most common home care services you provide?",
+    question: "Can chemotherapy be administered at home?",
     answer:
-      "Our most requested services include 24-hour nursing care, elderly care, post-operative patient care, and physiotherapy at home. We also offer specialized services like dementia care, wound management, and palliative care to address specific health needs.",
+      "In certain cases and depending on the patient’s condition, low-risk chemotherapy can be safely administered at home by certified professionals. However, it is always determined after a thorough assessment by an oncologist.",
   },
   {
-    question: "How do you ensure quality patient care at home?",
+    question: "What are the benefits of cancer care at home?",
     answer:
-      "We ensure quality patient care at home by developing customized care plans, conducting regular assessments, and maintaining open communication with clients and their families. Our team is dedicated to providing professional, compassionate, and reliable care at all times.",
+      "Cancer care at home allows patients to stay in a familiar and comfortable environment, reducing hospital visits, lowering the risk of infections, and improving emotional well-being. It also provides personalized and continuous care tailored to the patient's needs.",
   },
-]
+];
+
 
 export default function FAQ() {
   const [openIndex, setOpenIndex] = useState()
@@ -106,10 +107,10 @@ export default function FAQ() {
       </div>
 
       {/* Sticky Footer that is revealed on scroll */}
-      <div className="xl:sticky bottom-0 xl:h-screen bg-gray-100 text-gray-800 z-0 flex items-end">
+      <div className="sticky bottom-0 bg-gray-100 text-gray-800 z-0 flex items-end">
         <div className="max-w-7xl pb-10 mx-auto px-6 py-16 w-full">
             <div className="">
-                <h1  className="bg-text-gradient text-center font-medium text-3xl md:text-5xl xl:text-8xl break-words tracking-widest  bg-clip-text mb-28" >HealthCareium</h1>
+                <h1  className="bg-text-gradient text-center font-medium text-3xl md:text-5xl break-words tracking-widest  bg-clip-text mb-28" >HealthCareium</h1>
             </div>
           {/* Main Footer Content */}
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-8 mb-12">

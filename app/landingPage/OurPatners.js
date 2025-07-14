@@ -69,7 +69,7 @@ export default function OurPartnersSection() {
   return (
     <div
       ref={componentRef}
-      className={`transition-colors duration-700 ease-in-out ${isWhiteBackground ? "bg-white" : ""}`}
+      className={`transition-colors duration-700 ease-in-out ${isWhiteBackground ? "bg-white" : "bg-[#001D21]"} pb-20 `}
       style={!isWhiteBackground ? { backgroundColor: "#001D21" } : {}}
     >
       {/* Partnership Section */}
@@ -186,7 +186,7 @@ export default function OurPartnersSection() {
           </div>
         </div>
       </div>
-      <div className="bg-white h-20"></div>
+    
     </div>
   )
 }

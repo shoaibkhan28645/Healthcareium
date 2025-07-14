@@ -3,7 +3,7 @@ import Link from "next/link"
 
 export default function HeroSection() {
   return (
-    <div className="min-h-screen px-6 pt-10 md:px-12 lg:px-16 font-chillax" style={{ backgroundColor: "#001D21" }}>
+    <div className=" px-6 py-16 md:px-12 lg:px-16 font-chillax" style={{ backgroundColor: "#001D21" }}>
       <div className="max-w-4xl">
         {/* Top Banner Link */}
         <Link

@@ -76,13 +76,13 @@ export default function SeniorCareTimeline() {
   }, [])
 
   return (
-    <div className="min-h-screen bg-gray-100">
+    <div className=" bg-gray-100">
       {/* Some content above to enable scrolling */}
     
       {/* Main Timeline Component */}
       <div
         ref={componentRef}
-        className="min-h-screen transition-colors duration-500 ease-in-out"
+        className=" transition-colors duration-500 ease-in-out"
         style={{ 
           backgroundColor: backgroundColor === "white" ? "white" : "#04373d",
           backgroundImage: backgroundColor === "white" ? "none" : "linear-gradient(135deg, #04373d%, #5a4a2f 100%)"

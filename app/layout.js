@@ -1,5 +1,6 @@
 import "./globals.css";
 import { chillax } from "../lib/fonts";
+import { Navbar } from "./components/navbar/Navbar";
 
 export const metadata = {
   title: "Home Health Care Services in Pakistan | Nursing, Elderly & Patient Care",
@@ -13,6 +14,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body className={`${chillax.variable} antialiased`}>
+        <Navbar/>
         {children}
       </body>
     </html>
